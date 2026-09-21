@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Spice & Savor | Restaurant</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <div class="logo">
+        <span>🍴</span> Spice & Savor
+    </div>
+
+    <nav id="navMenu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#reservation" class="nav-btn">Book a Table</a>
+
+    <div class="hamburger" id="hamburger">
+        ☰
+    </div>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <p class="small-title">WELCOME TO SPICE & SAVOR</p>
+
+        <h1>
+            Taste the <span>Extraordinary.</span>
+        </h1>
+
+        <p class="hero-text">
+            Where traditional flavors meet modern culinary creativity.
+            Experience food made with passion, freshness and love.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#menu" class="primary-btn">Explore Menu</a>
+            <a href="#reservation" class="secondary-btn">Reserve Table</a>
+        </div>
+
+    </div>
+
+    <div class="scroll-down">
+        ↓
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="about section" id="about">
+
+    <div class="about-image reveal">
+        <img src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=900&q=80">
+    </div>
+
+    <div class="about-content reveal">
+
+        <p class="section-label">OUR STORY</p>
+
+        <h2>
+            Food that tells
+            <span>a story.</span>
+        </h2>
+
+        <p>
+            At Spice & Savor, we believe every dish has a story.
+            Our chefs combine authentic ingredients, traditional
+            recipes and modern techniques to create unforgettable
+            dining experiences.
+        </p>
+
+        <p>
+            From our kitchen to your table, every plate is prepared
+            fresh with carefully selected ingredients.
+        </p>
+
+        <a href="#menu" class="primary-btn">Discover More</a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FEATURES ================= -->
+
+<section class="features">
+
+    <div class="feature reveal">
+        <div class="feature-icon">🌿</div>
+        <h3>Fresh Ingredients</h3>
+        <p>Locally sourced and freshly prepared ingredients.</p>
+    </div>
+
+    <div class="feature reveal">
+        <div class="feature-icon">👨‍🍳</div>
+        <h3>Expert Chefs</h3>
+        <p>Passionate chefs creating delicious experiences.</p>
+    </div>
+
+    <div class="feature reveal">
+        <div class="feature-icon">❤️</div>
+        <h3>Made With Love</h3>
+        <p>Every dish is prepared with care and passion.</p>
+    </div>
+
+</section>
+
+
+<!-- ================= MENU ================= -->
+
+<section class="menu section" id="menu">
+
+    <div class="section-heading reveal">
+
+        <p class="section-label">OUR MENU</p>
+
+        <h2>
+            Discover our
+            <span>specialties</span>
+        </h2>
+
+        <p>
+            Carefully crafted dishes made for unforgettable moments.
+        </p>
+
+    </div>
+
+
+    <div class="menu-buttons">
+
+        <button class="filter active" data-category="all">
+            All
+        </button>
+
+        <button class="filter" data-category="starter">
+            Starters
+        </button>
+
+        <button class="filter" data-category="main">
+            Main Course
+        </button>
+
+        <button class="filter" data-category="dessert">
+            Desserts
+        </button>
+
+    </div>
+
+
+    <div class="menu-grid">
+
+        <!-- ITEM 1 -->
+
+        <div class="food-card reveal" data-category="starter">
+
+            <div class="food-image">
+
+                <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=700&q=80">
+
+                <span class="price">₹299</span>
+
+            </div>
+
+            <div class="food-info">
+
+                <h3>Garden Bruschetta</h3>
+
+                <p>
+                    Toasted bread, tomatoes, basil and fresh herbs.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- ITEM 2 -->
+
+        <div class="food-card reveal" data-category="main">
+
+            <div class="food-image">
+
+                <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=700&q=80">
+
+                <span class="price">₹449</span>
+
+            </div>
+
+            <div class="food-info">
+
+                <h3>Creamy Pasta</h3>
+
+                <p>
+                    Handmade pasta with creamy parmesan sauce.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- ITEM 3 -->
+
+        <div class="food-card reveal" data-category="main">
+
+            <div class="food-image">
+
+                <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=700&q=80">
+
+                <span class="price">₹599</span>
+
+            </div>
+
+            <div class="food-info">
+
+                <h3>Grilled Steak</h3>
+
+                <p>
+                    Tender grilled steak with roasted vegetables.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- ITEM 4 -->
+
+        <div class="food-card reveal" data-category="starter">
+
+            <div class="food-image">
+
+                <img src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?auto=format&fit=crop&w=700&q=80">
+
+                <span class="price">₹349</span>
+
+            </div>
+
+            <div class="food-info">
+
+                <h3>Truffle Fries</h3>
+
+                <p>
+                    Crispy fries with truffle oil and parmesan.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- ITEM 5 -->
+
+        <div class="food-card reveal" data-category="dessert">
+
+            <div class="food-image">
+
+                <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=700&q=80">
+
+                <span class="price">₹249</span>
+
+            </div>
+
+            <div class="food-info">
+
+                <h3>Chocolate Dessert</h3>
+
+                <p>
+                    Rich chocolate dessert with creamy filling.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- ITEM 6 -->
+
+        <div class="food-card reveal" data-category="dessert">
+
+            <div class="food-image">
+
+                <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=700&q=80">
+
+                <span class="price">₹299</span>
+
+            </div>
+
+            <div class="food-info">
+
+                <h3>Berry Cheesecake</h3>
+
+                <p>
+                    Creamy cheesecake topped with fresh berries.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= GALLERY ================= -->
+
+<section class="gallery section" id="gallery">
+
+    <div class="section-heading reveal">
+
+        <p class="section-label">OUR GALLERY</p>
+
+        <h2>
+            A feast for
+            <span>your eyes.</span>
+        </h2>
+
+    </div>
+
+
+    <div class="gallery-grid">
+
+        <img class="gallery-big reveal"
+        src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80">
+
+        <img class="reveal"
+        src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=700&q=80">
+
+        <img class="reveal"
+        src="https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&w=700&q=80">
+
+        <img class="reveal"
+        src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=700&q=80">
+
+    </div>
+
+</section>
+
+
+<!-- ================= RESERVATION ================= -->
+
+<section class="reservation section" id="reservation">
+
+    <div class="reservation-box reveal">
+
+        <div class="reservation-text">
+
+            <p class="section-label">RESERVATIONS</p>
+
+            <h2>
+                Your table
+                <span>awaits.</span>
+            </h2>
+
+            <p>
+                Reserve your table and enjoy an unforgettable
+                dining experience with us.
+            </p>
+
+        </div>
+
+
+        <form id="bookingForm">
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Your Name"
+                required
+            >
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Email Address"
+                required
+            >
+
+            <input
+                type="date"
+                id="date"
+                required
+            >
+
+            <select id="guests">
+
+                <option value="">Number of Guests</option>
+
+                <option>1 Guest</option>
+                <option>2 Guests</option>
+                <option>3 Guests</option>
+                <option>4 Guests</option>
+                <option>5+ Guests</option>
+
+            </select>
+
+            <button type="submit" class="primary-btn">
+                Reserve Now
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer id="contact">
+
+    <div class="footer-content">
+
+        <div>
+
+            <div class="logo">
+                🍴 Spice & Savor
+            </div>
+
+            <p>
+                Good food. Great moments.
+                Beautiful memories.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h3>Visit Us</h3>
+
+            <p>
+                123 Food Street<br>
+                Bengaluru, India
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h3>Opening Hours</h3>
+
+            <p>
+                Mon - Fri: 11 AM - 11 PM<br>
+                Sat - Sun: 10 AM - 12 AM
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h3>Follow Us</h3>
+
+            <div class="socials">
+
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+        © 2026 Spice & Savor. All Rights Reserved.
+
+    </div>
+
+</footer>
+
+
+<!-- Toast -->
+
+<div id="toast">
+    Table reservation submitted successfully! 🍽️
+</div>
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
